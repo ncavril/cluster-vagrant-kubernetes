@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-MASTER_IP       = "172.16.8.10"
-NODE_01_IP      = "172.16.8.11"
+MASTER_IP       = "192.168.56.10"
+NODE_01_IP      = "192.168.56.11"
 
 Vagrant.configure("2") do |config|
   config.vm.box = "geerlingguy/ubuntu2004"
